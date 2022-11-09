@@ -49,7 +49,7 @@ body {
 }
 
 #header-div {
-    /* border-style: dotted; */
+    border-style: dotted;
     display: flex;
     height: 500px;
     top: 20px;
