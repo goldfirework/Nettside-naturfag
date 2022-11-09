@@ -7,7 +7,7 @@ body {
     min-height: 10000px;
 }
 
-.div {
+#top-div {
     /* border-style: dotted; */
     display: flex;
     flex-direction: row;
@@ -48,9 +48,16 @@ body {
     text-transform: uppercase;
 }
 
-#header-div {
+#hoved-div {
     border-style: dotted;
-    display: flex;
-    height: 500px;
-    top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 250px;
+}
+
+.hoved-div-grid {
+    background-color: wheat;
+    margin: 20px;
+    text-align: center;
 }
