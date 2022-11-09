@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("header-bilde.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 10000px;
+}
+
+.div {
+    /* border-style: dotted; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.para {
+    margin: 10px;
+}
+
+#overskrift {
+    /* margin: 40px; */
+    margin-top: 25%;
+    color: white;
+    background-color: black;
+    padding: 18px;
+    text-align: center;
+}
+
+#meny {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.meny-link {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.meny-link:hover {
+    color: aqua;
+}
+
+#header-div {
+    border-style: dotted;
+    display: flex;
+    height: 500px;
+    top: 20px;
+}
